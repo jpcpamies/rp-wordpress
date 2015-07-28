@@ -1,11 +1,1 @@
-/*
-Theme name: Platzi
-Theme URI: http;//platzi.com
-Author: Platzi team
-Author URI: http://platzi.com
-Description: Este es el mejor tema del mundo.
-Version: 1.0
-*/
-body {
-  background-color: #ccc;
-}
+body{margin:0;padding:0}.header{background-color:rgba(0,0,0,0.8);padding:20px;color:#fff;}.header h1{margin:0;margin-bottom:.5rem}.header h2{font-size:1rem;margin:0}.content{padding:10px}.datos{border-bottom:1px solid;padding-bottom:.5rem}@media only screen and (min-width:660px){.content{display:block;margin:0 auto;width:660px}.post{display:inline-block}}

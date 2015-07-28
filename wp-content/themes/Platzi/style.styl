@@ -7,5 +7,40 @@ Description: Este es el mejor tema del mundo.
 Version: 1.0
 */
 
+gutter = 20px
+
 body
-	background-color #cccccc
+	margin 0
+	padding 0
+
+.header
+	background-color rgba(black,.8)
+	padding gutter
+	color white
+	h1
+		margin 0
+		margin-bottom .5rem
+	h2
+		font-size 1rem
+		margin 0
+		
+.content
+	padding (gutter / 2)
+
+.datos
+	border-bottom 1px solid 
+	padding-bottom .5rem
+
+
+
+@media only screen and (min-width: 660px) 
+	.content
+		display block
+		margin 0 auto
+		width 660px
+	.post
+		display inline-block
+		
+	
+	
+	
