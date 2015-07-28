@@ -40,6 +40,14 @@ body {
   border-bottom: 1px solid;
   padding-bottom: 0.5rem;
 }
+.img {
+  margin-right: 0;
+  margin-left: 0;
+}
+.img img {
+  width: 100%;
+  height: auto;
+}
 @media only screen and (min-width: 900px) {
   .content {
     width: 900px;

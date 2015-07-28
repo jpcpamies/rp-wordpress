@@ -45,8 +45,20 @@
 						<small><?php the_date(	 ); ?></small>
 					</div>
 				</header>
-				<?php the_excerpt(); ?>
-				<?php the_category( ); ?>
+				<figure class='img'>
+					<!-- 
+					* Al incluir la imagen por defecto pone el temaño grande
+					* le puedo cambiar el tamaño con los parámetros
+					** thumbnail > es la imagen en pequeño
+					** medium > es la imagen...
+					** full > es la imagen...
+				 	 -->
+					<?php the_post_thumbnail( 'full' ); ?>
+				</figure>
+				<footer>
+					<?php the_excerpt(); ?>
+					<?php the_category( ); ?>
+				</footer>
 			</article>
 		<!-- post -->
 		<?php endwhile; ?>
