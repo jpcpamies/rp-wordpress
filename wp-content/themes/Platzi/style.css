@@ -1,1 +1,56 @@
-body{margin:0;padding:0}.header{background-color:rgba(0,0,0,0.8);padding:20px;color:#fff;}.header h1{margin:0;margin-bottom:.5rem}.header h2{font-size:1rem;margin:0}.content{padding:10px}.datos{border-bottom:1px solid;padding-bottom:.5rem}@media only screen and (min-width:660px){.content{display:block;margin:0 auto;width:660px}.post{display:inline-block}}
+/*
+Theme name: Platzi
+Theme URI: http;//platzi.com
+Author: Platzi team
+Author URI: http://platzi.com
+Description: Este es el mejor tema del mundo.
+Version: 1.0
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgba(0,0,0,0.8);
+  padding: 20px;
+  color: #fff;
+}
+.header h1 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.header h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+.content {
+  padding: 10px;
+  text-align: center;
+}
+.post {
+  text-align: left;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 360px;
+  vertical-align: top;
+}
+.datos {
+  border-bottom: 1px solid;
+  padding-bottom: 0.5rem;
+}
+@media only screen and (min-width: 900px) {
+  .content {
+    width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .post {
+    width: 360px;
+  }
+  .post:nth-child(odd) {
+    margin-right: 20px;
+  }
+}

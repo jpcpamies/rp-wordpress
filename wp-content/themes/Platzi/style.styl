@@ -26,6 +26,16 @@ body
 		
 .content
 	padding (gutter / 2)
+	text-align center
+	
+.post
+	text-align left
+	display inline-block
+	background-color rgba(black,.1)
+	padding gutter
+	margin-bottom gutter
+	width 360px
+	vertical-align top
 
 .datos
 	border-bottom 1px solid 
@@ -33,13 +43,17 @@ body
 
 
 
-@media only screen and (min-width: 660px) 
+@media only screen and (min-width: 900px) 
 	.content
+		width 900px
 		display block
-		margin 0 auto
-		width 660px
+		margin-right auto
+		margin-left auto
 	.post
-		display inline-block
+		width 360px
+		&:nth-child(odd)
+			margin-right gutter
+		
 		
 	
 	
