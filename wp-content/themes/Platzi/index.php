@@ -62,5 +62,5 @@
 		<?php endif; ?>
 
 	</section>
-</body>
-</html>
+
+<?php get_footer( 'negro' ); ?>
