@@ -12,3 +12,7 @@
 	<title><?php the_title( ); ?></title>
  	<link rel="stylesheet" href="<?php bloginfo(stylesheet_url) ?>">
 </head>
+<body class="cat__blog">
+<header>
+	<h1><?php the_title( ); ?></h1>
+</header>

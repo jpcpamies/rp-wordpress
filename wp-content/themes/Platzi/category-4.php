@@ -12,11 +12,7 @@
 * categoría en concreto.
  -->
 <?php get_header('nueva'); ?>
-<body class="cat__blog">
-	<header class="header">
-		<h1><?php bloginfo('name') ?></h1>
-		<h2><?php bloginfo('description') ?></h2>
-	</header>
+
 	<section class="content page ">
 		
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
