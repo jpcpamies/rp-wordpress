@@ -6,6 +6,10 @@ Author URI: http://platzi.com
 Description: Este es el mejor tema del mundo.
 Version: 1.0
 */
+/*------------------------------------*    $VARIABLES
+\*------------------------------------*/
+/*------------------------------------*    $SITIO
+\*------------------------------------*/
 body {
   margin: 0;
   padding: 0;
@@ -54,6 +58,9 @@ body {
 .footer-negro li {
   display: inline-block;
   color: #fff;
+}
+.cat__blog {
+  background-color: #ffa500;
 }
 @media only screen and (min-width: 900px) {
   .content {

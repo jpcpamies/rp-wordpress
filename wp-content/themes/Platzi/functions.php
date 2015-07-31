@@ -10,4 +10,4 @@ add_theme_support('post-thumbnails');
 // Estas proporciones se aplican a las nuevas imágenes importadas. 
 // para que se aplicar tamaño personalizado a las imágenes anteriores
 // Hay un pligin: thumbnail generaitor
-add_image_size( 'my-size', 220, 180, true);
+add_image_size( 'my-size', 220, 180, true); 
