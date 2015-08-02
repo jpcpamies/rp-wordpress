@@ -83,6 +83,10 @@ body {
     display: table-cell;
     width: 72%;
   }
+  .footer {
+    background-color: #ffa500;
+    display: table-footer-group;
+  }
   .post {
     width: 360px;
   }

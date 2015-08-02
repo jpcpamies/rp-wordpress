@@ -1,4 +1,4 @@
-<small>Footer por diseñar</small>
+<small class='footer'>Footer por diseñar</small>
 
 </body>
 </html>
