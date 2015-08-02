@@ -69,6 +69,20 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  .content.sidebar {
+    background-color: #f00;
+    width: 68%;
+    display: table-cell;
+  }
+  .table {
+    background-color: #00f;
+    display: table;
+  }
+  aside {
+    background-color: #008000;
+    display: table-cell;
+    width: 72%;
+  }
   .post {
     width: 360px;
   }
