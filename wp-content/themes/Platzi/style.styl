@@ -62,6 +62,8 @@ body
 
 .footer-negro
 	background-color rgba(black,.8)
+	padding gutter
+	color white
 	li
 		display inline-block
 		color white
@@ -91,12 +93,45 @@ body
 		background-color orange
 		display table-footer-group
 	
-	
-		
 	.post
 		width 360px
 		&:nth-child(odd)
 			margin-right gutter
+			
+	.nav__list
+		margin-top 0
+		margin-bottom 0
+		display flex
+		justify-content flex-end
+		padding gutter
+		background-color rgba(black,.9)
+		li
+			list-style none 
+			margin-left gutter
+			a
+				color white
+				text-decoration none
+				&:hover
+					color gray
+	.nav--afic
+		&:before
+			content '>'
+			color white
+	.nav--foter__list
+		margin-top 0
+		margin-bottom 0
+		display table
+		padding gutter
+		li
+			display table-row
+			list-style none 
+			margin-bottom gutter
+			a
+				color white
+				text-decoration none
+				&:hover
+					color gray				
+			
 		
 		
 	
