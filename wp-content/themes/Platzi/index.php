@@ -15,6 +15,18 @@
 		<h1><?php bloginfo('name') ?></h1>
 		<h2><?php bloginfo('description') ?></h2>
 	</header>
+
+
+
+
+	<div class="sidebar">
+		<!-- Esto es el espacio para widgets -->
+		<?php dynamic_sidebar( 'sidebar-header' ); ?>
+	</div>
+
+
+
+
 	<section class="content">
 
 		<!-- 
@@ -73,5 +85,16 @@
 		<?php endif; ?>
 
 	</section>
+
+
+
+
+	<div class="sidebar">
+		<!-- Esto es el espacio para widgets -->
+		<?php dynamic_sidebar( 'sidebar-footer' ); ?>
+	</div>
+
+
+
 
 <?php get_footer( 'landing' ); ?>
